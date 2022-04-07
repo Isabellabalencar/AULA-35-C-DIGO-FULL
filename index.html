@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Zen</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+      // Configuração do Firebase do seu aplicativo da web
+      //adicione aqui
+      const firebaseConfig = {
+  apiKey: "AIzaSyATzwb_qlOWqZaLmaK3jma45gB1qLfucLY",
+  authDomain: "movimento-68ad2.firebaseapp.com",
+  databaseURL: "https://movimento-68ad2-default-rtdb.firebaseio.com",
+  projectId: "movimento-68ad2",
+  storageBucket: "movimento-68ad2.appspot.com",
+  messagingSenderId: "654718675386",
+  appId: "1:654718675386:web:257f92ad09c6cc541a1583"
+};
+      // Inicializar Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
